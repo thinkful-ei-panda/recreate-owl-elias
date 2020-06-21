@@ -86,5 +86,11 @@ export const chatEvents = [
       participantId: 3,
       type: 'leave-stage',
       timestamp: 1548852724247
+  },
+  {
+    participantId: 4,
+    type: 'message',
+    message: 'I"m back',
+    timestamp: 15488528184247
   }
 ];
