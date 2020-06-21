@@ -2,16 +2,27 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+/* ReactDOM.render(
+  <Chat
+    events={[
+      { type: "thumbs-up", message: "", timestamp: 1233456, participantId: 4 },
+      { type: "chat-message", message: "Hello world", timestamp: 1233457, participantId: 5 },
+    ]}
+    participants={[{id: 4}, {id: 5}]}
+  />,
+  document.getElementById()
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+ReactDOM.render(
+  <Chat
+    events={[
+      { type: "thumbs-up", message: "", timestamp: 1233456, participantId: 4 },
+    ]}
+    participants={[{id: 5}]}
+  />,
+  div
+); */

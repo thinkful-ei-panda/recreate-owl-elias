@@ -1,4 +1,4 @@
-const participants = [
+export const participants = [
   {
       id: 1,
       name: 'Koren Templeton',
@@ -13,7 +13,7 @@ const participants = [
       avatar:
           'https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1',
       inSession: true,
-      onStage: false
+      onStage: true
   },
   {
       id: 3,
@@ -40,12 +40,11 @@ const participants = [
   }
 ];
 
-const chatEvents = [
+export const chatEvents = [
   {
       participantId: 3,
       type: 'message',
       message: 'Hello world',
-      time: 1548852646559,
       timestamp: 1548852484247
   },
   {
